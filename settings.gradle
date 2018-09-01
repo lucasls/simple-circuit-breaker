@@ -1,2 +1,4 @@
 rootProject.name = 'simple-circuit-breaker'
-
+include 'kotlin', 'kotlin-coroutines'
+project(':kotlin').name = 'simple-circuit-breaker-kotlin'
+project(':kotlin-coroutines').name = 'simple-circuit-breaker-kotlin-coroutines'
