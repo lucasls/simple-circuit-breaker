@@ -1,5 +1,10 @@
 plugins {
     id 'java-library'
+    id 'nebula.release' version '6.3.5'
+}
+
+allprojects {
+    apply plugin: 'maven'
 }
 
 group 'com.ifood.simple-circuit-breaker'
